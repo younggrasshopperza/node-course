@@ -1,8 +1,8 @@
-// We are calling the required function to load the fs module (file system module)
+// We are calling the require function to load the fs module (file system module)
 const fs = require('fs');
 // We are now able to use the fs function which allows us to create and write into a file
 
-// Create the notes.text file and write text in the file
+// Create the notes.txt file and write text in the file
 fs.writeFileSync('notes.txt', 'This file was created by Node.js');
 
 // This will overwrite the previous notes create previously above.
